@@ -1,0 +1,41 @@
+{
+  "schema": {
+    "types": [
+      {
+        "name": "Root",
+        "actions": [
+          {
+            "name": "run",
+            "type": "Void"
+          },
+          {
+            "name": "run2",
+            "type": "Void"
+          },
+          {
+            "name": "check_restingbpm",
+            "type": "Void"
+          },
+          {
+            "name": "configure",
+            "type": "Void",
+            "params": [
+              {
+                "name": "number",
+                "type": "String"
+              },
+              {
+                "name": "personalAccessToken",
+                "type": "String"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "dependencies": {
+    "oura": "oura:",
+    "sms": "sms:"
+  }
+}
